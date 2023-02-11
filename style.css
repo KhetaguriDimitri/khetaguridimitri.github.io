@@ -1,0 +1,319 @@
+html {
+	font-size: 2.5em;
+}
+body {
+	background-color: #fff;
+	padding: 25px;
+	text-align: center;
+}
+
+/* Wrapper */
+.icon-button {
+	background-color: white;
+	border-radius: 2.6rem;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1.3rem;
+	height: 2.6rem;
+	line-height: 2.6rem;
+	margin: 0 5px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 2.6rem;
+}
+
+/* Circle */
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+.icon-button:hover span {
+	width: 2.6rem;
+	height: 2.6rem;
+	border-radius: 2.6rem;
+	margin: -1.3rem;
+}
+
+/* Icons */
+.icon-button i {
+	background: none;
+	color: white;
+	height: 2.6rem;
+	left: 0;
+	line-height: 2.6rem;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 2.6rem;
+	z-index: 10;
+	
+}
+.twitter span {
+	background-color: #4099ff;
+}
+.facebook span {
+	background-color: #3B5998;
+}
+.soundcloud span {
+	background-color: #db5a3c;
+}
+.instagram span {
+	background-color: #c85c32;
+}
+.youtube span {
+	background-color: #bb0000;
+}
+.instagram span {
+	background-color: #d5b059;
+}
+.github span {
+	background-color: #34526f;
+}
+.icon-button .icon-twitter {
+	color: #4099ff;
+}
+.icon-button .icon-facebook {
+	color: #3B5998;
+}
+.icon-button .fa-soundcloud {
+	color: #34526f;
+}
+.icon-button .fa-instagram {
+	color: #517fa4;
+}
+.icon-button .fa-youtube {
+	color: #bb0000;
+}
+.icon-button .fa-pinterest {
+	color: #cb2027;
+}
+.icon-button .fa-github {
+	color: #6f6f6f;
+}
+
+.icon-button:hover .icon-twitter,
+.icon-button:hover .icon-facebook,
+.icon-button:hover .fa-soundcloud,
+.icon-button:hover .fa-instagram,
+.icon-button:hover .fa-youtube,
+.icon-button:hover .fa-pinterest,
+.icon-button:hover .fa-github{
+	color: white;
+}
+
+@media all and (max-width: 680px) {
+  .icon-button {
+    border-radius: 1.6rem;
+    font-size: 0.8rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    width: 1.6rem;
+  }
+
+  .icon-button:hover span {
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 1.6rem;
+    margin: -0.8rem;
+  }
+
+  /* Icons */
+  .icon-button i {
+	  height: 1.6rem;
+	  line-height: 1.6rem;
+	  width: 1.6rem;
+  }
+  body {
+
+	  padding: 10px;
+  }
+  .pinterest {
+   display: none; 
+  }
+
+}
+body {
+  background: black;
+  font-family: 'Varela', sans-serif;
+}
+
+.glitch {
+  color: white;
+  font-size: 100px;
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+}
+
+@keyframes noise-anim {
+  0% {
+    clip: rect(53px, 9999px, 39px, 0);
+  }
+  5% {
+    clip: rect(24px, 9999px, 36px, 0);
+  }
+  10% {
+    clip: rect(56px, 9999px, 15px, 0);
+  }
+  15% {
+    clip: rect(69px, 9999px, 31px, 0);
+  }
+  20% {
+    clip: rect(86px, 9999px, 39px, 0);
+  }
+  25% {
+    clip: rect(78px, 9999px, 97px, 0);
+  }
+  30% {
+    clip: rect(91px, 9999px, 23px, 0);
+  }
+  35% {
+    clip: rect(98px, 9999px, 93px, 0);
+  }
+  40% {
+    clip: rect(53px, 9999px, 26px, 0);
+  }
+  45% {
+    clip: rect(52px, 9999px, 65px, 0);
+  }
+  50% {
+    clip: rect(71px, 9999px, 63px, 0);
+  }
+  55% {
+    clip: rect(88px, 9999px, 89px, 0);
+  }
+  60% {
+    clip: rect(85px, 9999px, 95px, 0);
+  }
+  65% {
+    clip: rect(38px, 9999px, 97px, 0);
+  }
+  70% {
+    clip: rect(98px, 9999px, 2px, 0);
+  }
+  75% {
+    clip: rect(30px, 9999px, 19px, 0);
+  }
+  80% {
+    clip: rect(58px, 9999px, 68px, 0);
+  }
+  85% {
+    clip: rect(16px, 9999px, 4px, 0);
+  }
+  90% {
+    clip: rect(13px, 9999px, 62px, 0);
+  }
+  95% {
+    clip: rect(63px, 9999px, 6px, 0);
+  }
+  100% {
+    clip: rect(82px, 9999px, 53px, 0);
+  }
+}
+.glitch:after {
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -1px 0 red;
+  top: 0;
+  color: white;
+  background: black;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim 2s infinite linear alternate-reverse;
+}
+
+@keyframes noise-anim-2 {
+  0% {
+    clip: rect(71px, 9999px, 11px, 0);
+  }
+  5% {
+    clip: rect(63px, 9999px, 44px, 0);
+  }
+  10% {
+    clip: rect(74px, 9999px, 19px, 0);
+  }
+  15% {
+    clip: rect(78px, 9999px, 61px, 0);
+  }
+  20% {
+    clip: rect(81px, 9999px, 56px, 0);
+  }
+  25% {
+    clip: rect(70px, 9999px, 16px, 0);
+  }
+  30% {
+    clip: rect(11px, 9999px, 17px, 0);
+  }
+  35% {
+    clip: rect(69px, 9999px, 25px, 0);
+  }
+  40% {
+    clip: rect(61px, 9999px, 94px, 0);
+  }
+  45% {
+    clip: rect(48px, 9999px, 62px, 0);
+  }
+  50% {
+    clip: rect(87px, 9999px, 59px, 0);
+  }
+  55% {
+    clip: rect(56px, 9999px, 11px, 0);
+  }
+  60% {
+    clip: rect(56px, 9999px, 36px, 0);
+  }
+  65% {
+    clip: rect(82px, 9999px, 38px, 0);
+  }
+  70% {
+    clip: rect(11px, 9999px, 20px, 0);
+  }
+  75% {
+    clip: rect(28px, 9999px, 58px, 0);
+  }
+  80% {
+    clip: rect(83px, 9999px, 67px, 0);
+  }
+  85% {
+    clip: rect(76px, 9999px, 37px, 0);
+  }
+  90% {
+    clip: rect(56px, 9999px, 34px, 0);
+  }
+  95% {
+    clip: rect(61px, 9999px, 76px, 0);
+  }
+  100% {
+    clip: rect(18px, 9999px, 40px, 0);
+  }
+}
+.glitch:before {
+  content: attr(data-text);
+  position: absolute;
+  left: -2px;
+  text-shadow: 1px 0 blue;
+  top: 0;
+  color: white;
+  background: black;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim-2 3s infinite linear alternate-reverse;
+}
