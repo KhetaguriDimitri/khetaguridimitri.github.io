@@ -1,5 +1,2 @@
-User-agent:
-Allow: *
-
-Sitemap: https://khetaguridimitri.github.io/sitemap.xml
-Sitemap: https://www.khetaguridimitri.github.io/sitemap.xml
+User-agent: *
+Allow: /
