@@ -317,3 +317,58 @@ body {
   clip: rect(0, 900px, 0, 0);
   animation: noise-anim-2 3s infinite linear alternate-reverse;
 }
+
+/* World */
+
+{
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	color: black;
+	font-family: sans-serif;
+}
+
+
+#myearth {
+	width: 300px;
+	height: 200px;
+	max-height: 250px;
+	overflow: hidden;
+}
+
+#myearth canvas {
+	filter: brightness(0);
+	transform: scale(0.5);
+	transition: filter 3.5s ease-in-out, transform 1.5s ease-in-out;
+}
+#myearth.earth-ready canvas {
+	filter: none;
+	transform: none;
+}
+
+#myearth::before {
+	content: none;
+}
+
+
+/* background glow */
+
+#glow {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 250px;
+	max-width: 250px;
+	height: 250px;
+	max-height: 250px;
+	transform: translate(-50%, -50%);
+	
+	background: radial-gradient(ellipse at center, rgba(0,156,255,0) 33%,rgba(0,156,255,0.12) 52%,rgba(0,156,255,0.05) 54%,rgba(0,156,255,0) 70%);
+	z-index: 200;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 4s ease-in-out;
+}
+#myearth.earth-ready #glow {
+	opacity: 1;
+}
