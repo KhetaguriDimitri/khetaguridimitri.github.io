@@ -355,8 +355,8 @@ body {
 
 #glow {
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 200px;
+	left: 200px;
 	width: 250px;
 	max-width: 250px;
 	height: 250px;
