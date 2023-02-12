@@ -354,7 +354,7 @@ body {
 /* background glow */
 
 #glow {
-	position: center;
+	position: absolute;
 	top: 200px;
 	left: 200px;
 	width: 250px;
