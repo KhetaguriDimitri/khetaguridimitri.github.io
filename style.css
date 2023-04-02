@@ -375,17 +375,8 @@ body {
 
  /* Button */
 
-body {
-  margin:0;
-  padding:0;
-  font-family: sans-serif;
-}
-
 .login-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 124px;
+  margin: auto;
   padding: 38px;
 }
 
