@@ -377,7 +377,6 @@ body {
 
 .login-box {
   margin: auto;
-  padding: 38px;
 }
 
 .login-box .user-box label {
@@ -409,8 +408,7 @@ body {
   text-transform: uppercase;
   overflow: hidden;
   transition: .5s;
-  margin-top: 40px;
-  letter-spacing: 4px
+  letter-spacing: 4px;
 }
 
 .login-box a:hover {
